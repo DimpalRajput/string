@@ -16,7 +16,7 @@ r=int(y)
 print(r)
 h=5+3j
 print(type(h))
-message=" Hello jaanvi this is python program "
+message=" Hello khushbu this is python program "
 print(len(message))
 print(message[:-1])
 print(message.lower())
