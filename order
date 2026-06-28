@@ -19,11 +19,17 @@ print("pal" in str)
 marks=[94, 65, 34, 68, 78]
 marks.append(56)
 print(marks)
+
 marks.sort()
 print(marks)
+
 marks.insert(4,57)
 print(marks)
+
 marks.remove(34)
 print(marks)
+
 marks.pop(1)
 print(marks)
+
+print(marks[-4:-1])
