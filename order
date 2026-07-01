@@ -28,8 +28,3 @@ print(marks)
 
 marks.remove(34)
 print(marks)
-
-marks.pop(1)
-print(marks)
-
-print(marks[-4:-1])
