@@ -50,7 +50,27 @@ first=t1.index(43)
 print(t1[first+1:].index(43)+first+1)
 
 
+marketing={
+    "product":"mobile phone",
+    "sale":156,
+    "profit":"12 lakh"
 
+}
+print(marketing)
+print(len(marketing))
+production=dict(item="laptop",total=34)
+#print(type(production))
+print(production)
+l2=[("name","sonakshi"),("height",5.2),("age",13),("t1",(23,45,67)),("value",True)]
+dict1=dict(l2)
+print(dict1)
+print(type(dict1))
+#to check existance of key through sqaure brackets and get method and print a message in get method
+marketing.update({"discount":"5%",
+                 "branch":"new delhi"})
+print(marketing)
+print(marketing.popitem())
+print(marketing)
 
 
 
