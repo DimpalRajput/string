@@ -62,13 +62,12 @@ if letter in "aeiou":
 else:
     print("letter is consonant")
 #14.
-list=[23,45,56,78,79]
-for num in list:
+number=[23,45,56,78,79,45,23]
+for num in number:
     if num % 2==0:
         print(num)
 #15.
-
-
-
+l1=set(number)
+print(l1)
 
 
