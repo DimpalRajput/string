@@ -1,3 +1,30 @@
+side1=60
+side2=47
+area=side1*side2
+print(area)
+print(type(side1))
+word="laptop"
+print(type(word))
 name="dimpal"
-age="21"
-print(name ,age)
+surname="tanwar"
+str=name + surname
+str1=name+" "+surname
+print(str)
+print(len(str))
+print(str1)
+print(str[3])
+print(str.endswith("war"))
+print(str1.capitalize())
+print("pal" in str)
+marks=[94, 65, 34, 68, 78]
+marks.append(56)
+print(marks)
+
+marks.sort()
+print(marks)
+
+marks.insert(4,57)
+print(marks)
+
+marks.remove(34)
+print(marks)
