@@ -62,4 +62,12 @@ print(numbers2)
 numbers3=[10,20,30]
 value=numbers3.pop(1)
 print(value,numbers3)
+def calculate(a,b):
+    print(a+b)
+    print(a-b)
+    print(a*b)
+    return a+b,a-b,a*b
+result=calculate(49,7)
+print(result)
+
 
