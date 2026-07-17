@@ -40,10 +40,12 @@ def cube(a):
 result=cube(4)
 print(result)
 #8.
-def add(a,b):
-    return a+b
-result=add(34,56)
-print(result)
+def add(*numbers):
+    total=0
+    for num in numbers:
+        total+=num
+    return total 
+print(add(34,56,89,67))
 #9.
 def comparison(a):
     if a%2==0:
@@ -74,7 +76,42 @@ def factorial(n):
         fact=fact*n
         n-=1
         print(fact)
-factorial(10)        
+factorial(10) 
+#16.
+def attendance(present,*num ):
+    for num in num:
+        print(present,num)
+attendance("present",1,2,4,5,6)
+#17.
+# def show_detail(**details)
+# for key,value in details.items():
+#17. create_profile(**user):
+    # print("user profile")
+    # print("name:",user.get("name"))
+    # print("city:",user.get("city"))
+    # print("email address:",user.get("email address"))
+# create_profile("priya","nimrana","priya1234@gmail.com")
+#18.
+def add(a:int,b:int)->int:
+    return a+b
+print(add(6,8))
+#map,filter,sorted
+def find_largest(numbers):
+    largest=numbers[0]
+    for number in numbers:
+        if number>largest:
+            largest=number
+        return largest
+find_largest=[67,78,99,56,45]
+
+
+    
+
+
+
+
+ 
+      
 
 
 
